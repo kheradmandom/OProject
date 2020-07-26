@@ -72,92 +72,71 @@
 
                         <div class="col">
                             <!-- Membership Type -->
-                            <select class="col-12 custom-select">
+                            <select class="custom-select">
   <option selected>انتخاب نوع عضویت</option>
   <option value="1">زبان آموز</option>
   <option value="2">مدرس</option>
 </select>
-
                         </div>
-
                     </div>
-
-
 
                     <!-- Email -->
                     <input type="email" id="defaultLoginFormEmail" class="form-control mb-3" data-validate="Valid email is required: ex@abc.xyz" placeholder="ایمیل" name="email">
 
+                    <!-- Password -->
+                    <input type="password" id="defaultLoginFormPassword" class="form-control validate-input" data-validate="Password is required" placeholder="رمز عبور" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
 
-
-
-
-
-
-
-
-
-
-
-                    <div class="form-row mb-3">
-                        <!-- Password -->
-                        <input type="password" id="defaultLoginFormPassword" class="form-control validate-input" data-validate="Password is required" placeholder="رمز عبور" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
+                    <div class="flex-sb-m w-full mt-1 ">
+                        <a style="color: #869696;" class="txt1">
+                            حداقل تعداد کاراکتر 8 (با حروف بزرگ، کوچک و عدد)
+							</a>
                     </div>
 
-
-
-
-
-
-
-
-
-                    <div class="flex-sb-m w-full">
+                    <div class="flex-sb-m w-full mt-3 ">
                         <a href="#" class="txt1">
 								رمز عبور خود را فراموش کردید؟
 							</a>
                     </div>
 
-
-
-                    <div class="contact100-form-checkbox">
+                    <div class="contact100-form-checkbox mt-3">
                         <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
                         <label class="label-checkbox100" for="ckb1">
-                        <p><a href="" target="_blank">شرایط و قوانین</a> را می‌پذیرم</p>
+                        <p><a href="" target="_blank">شرایط و قوانین</a> را می‌پذیرم.</p>
                     </label>
                     </div>
 
 
 
-                    <!-- Sign up button -->
-                    <button class="btn btn-info my-4 btn-block" type="submit">ثبت نام</button>
 
-
-
-
-
-
-
-
-                    <!-- Terms of service -->
-                    <p style="direction: rtl;">عضو هستید؟
-                        <a href="" target="_blank">وارد شوید</a>
-
-
-
-
-
-                        <div class="form-group">
+                    <!-- Captcha -->
+                    <div class="col-12">
+                        <div class="form-group mt-3 mb-3">
                             <div class="g-recaptcha" data-sitekey="6Les_LUUAAAAAOwAecAV2bvGOrePoZVQPLDOJcs_" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                             <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
                             <div class="help-block with-errors"></div>
                         </div>
+                    </div>
 
 
 
 
-                        <hr>
 
-                        <div class="text-center p-t-20 p-b-10">
+                    <!-- Sign up button -->
+                    <button class="btn btn-info btn-block my-3" type="submit">ثبت نام</button>
+
+                    <!-- Login -->
+                    <p>عضو هستید؟
+                        <a href="login-signin.html" target="_blank">وارد شوید</a>
+
+
+
+
+
+
+
+
+                        <hr class="p-b-5">
+                        <div class="text-center">
                             <span class="txt2">
 							عضویت با استفاده از
 						</span>
@@ -180,13 +159,16 @@
     </div>
 
 
-
-
-
     <!--===============================================================================================-->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/contact.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!--===============================================================================================-->
     <script src="build/js/intlTelInput.js"></script>
     <script>

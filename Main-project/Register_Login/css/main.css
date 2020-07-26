@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
+	    direction: rtl;
 	font-family: Vazir-Bold;
 	font-size: 14px;
 	line-height: 1.7;
@@ -112,7 +113,8 @@ textarea:-ms-input-placeholder { color: #999999;}
 
 label {
   display: block;
-  margin: 0;
+  margin: 1px;
+
 }
 
 /*---------------------------------------------*/
@@ -394,7 +396,7 @@ input.input100 {
 
   display: block;
   position: relative;
-  padding-left: 26px;
+  padding-right: 26px;
   cursor: pointer;
 }
 
@@ -417,7 +419,7 @@ input.input100 {
   border-radius: 2px;
   background: #fff;
   border: 1px solid #6675df;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -428,6 +430,7 @@ input.input100 {
 
 .input-checkbox100:checked + .label-checkbox100::before {
   color: #6675df;
+  
 }
 
 
