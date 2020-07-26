@@ -12,12 +12,38 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/vazir/Vazir.ttf">
-    <!--===============================================================================================-->	
+    <link rel="stylesheet" type="text/css" href="fonts/vazir/Vazir.ttf">
+    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="https://www.htmlhints.com/image/fav-icon.png">
+    <meta name="msvalidate.01" content="B7807734CA7AACC0779B341BBB766A4E" />
+    <meta name="p:domain_verify" content="78ad0b4e41a4f27490d91585cb10df4a" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-1506739985879215",
+            enable_page_level_ads: true
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145078782-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145078782-1');
+    </script>
+    <style>
+        .list-unstyled {
+            color: red;
+        }
+    </style>
 </head>
 
 <body style="background-color: #666666;">
@@ -42,70 +68,62 @@
                         </div>
                     </div>
 
-                    <!-- Email -->
-                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-3" data-validate="Valid email is required: ex@abc.xyz" placeholder="ایمیل" name="email">
-
-
-					
-					
-					
-					
-					
-					
-					
-										<div class="form-row mb-3">
+                    <div class="form-row mb-3">
 
                         <div class="col">
                             <!-- Membership Type -->
-                    <select class="custom-select">
+                            <select class="col-12 custom-select">
   <option selected>انتخاب نوع عضویت</option>
   <option value="1">زبان آموز</option>
   <option value="2">مدرس</option>
 </select>
-                        </div>
-						
-						                        <div class="col">
-<!-- Phone Number -->
-                            <input type="text" id="defaultRegisterFormPhoneNumber" class="form-control" placeholder="شماره موبایل" name="phonenumber">
-                        </div>
-                    </div>
-					
-					
-					
-					
-					
-					<div class="form-row mb-3">
-                        <div class="col">
-                           <!-- Password -->
-                    <input type="password" id="defaultLoginFormPassword" class="form-control validate-input" data-validate="Password is required" placeholder="رمز عبور" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass"> 
-                        </div>
-                        <div class="col">
-                            <!-- Confirm Password -->
-                    <input type="password" id="defaultLoginFormPassword" class="form-control validate-input" data-validate="Password is required" placeholder="تایید رمز عبور" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
-                        </div>
-                    </div>
-					
-                    
 
-			
-			
-			
-			
-			
-			
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Email -->
+                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-3" data-validate="Valid email is required: ex@abc.xyz" placeholder="ایمیل" name="email">
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="form-row mb-3">
+                        <!-- Password -->
+                        <input type="password" id="defaultLoginFormPassword" class="form-control validate-input" data-validate="Password is required" placeholder="رمز عبور" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
+                    </div>
+
+
+
+
+
+
+
+
+
                     <div class="flex-sb-m w-full">
-                        <div class="contact100-form-checkbox">
-                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-                            <label class="label-checkbox100" for="ckb1">
-								مرا به خاطر بسپار
-							</label>
-                        </div>
-
-                        <div>
-                            <a href="#" class="txt1">
+                        <a href="#" class="txt1">
 								رمز عبور خود را فراموش کردید؟
 							</a>
-                        </div>
+                    </div>
+
+
+
+                    <div class="contact100-form-checkbox">
+                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        <label class="label-checkbox100" for="ckb1">
+                        <p><a href="" target="_blank">شرایط و قوانین</a> را می‌پذیرم</p>
+                    </label>
                     </div>
 
 
@@ -114,11 +132,30 @@
                     <button class="btn btn-info my-4 btn-block" type="submit">ثبت نام</button>
 
 
+
+
+
+
+
+
                     <!-- Terms of service -->
                     <p style="direction: rtl;">عضو هستید؟
                         <a href="" target="_blank">وارد شوید</a>
 
 
+
+
+
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6Les_LUUAAAAAOwAecAV2bvGOrePoZVQPLDOJcs_" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+
+
+
+                        <hr>
 
                         <div class="text-center p-t-20 p-b-10">
                             <span class="txt2">
@@ -131,7 +168,7 @@
                                 <i class="fa fa-google" aria-hidden="true"></i>
                             </a>
 
-                            
+
                         </div>
 
                 </form>
@@ -150,34 +187,34 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
-	    <!--===============================================================================================-->
-	  <script src="build/js/intlTelInput.js"></script>
-  <script>
-    var input = document.querySelector("#phone");
-    window.intlTelInput(input, {
-      // allowDropdown: false,
-      // autoHideDialCode: false,
-      // autoPlaceholder: "off",
-      // dropdownContainer: document.body,
-      // excludeCountries: ["us"],
-      // formatOnDisplay: false,
-      // geoIpLookup: function(callback) {
-      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-      //     var countryCode = (resp && resp.country) ? resp.country : "";
-      //     callback(countryCode);
-      //   });
-      // },
-      // hiddenInput: "full_number",
-      // initialCountry: "auto",
-      // localizedCountries: { 'de': 'Deutschland' },
-      // nationalMode: false,
-      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-      // placeholderNumberType: "MOBILE",
-      // preferredCountries: ['cn', 'jp'],
-      // separateDialCode: true,
-      utilsScript: "build/js/utils.js",
-    });
-  </script>
+    <!--===============================================================================================-->
+    <script src="build/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            // preferredCountries: ['cn', 'jp'],
+            // separateDialCode: true,
+            utilsScript: "build/js/utils.js",
+        });
+    </script>
 
 </body>
 
